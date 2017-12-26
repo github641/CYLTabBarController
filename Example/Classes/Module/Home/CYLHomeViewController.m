@@ -7,6 +7,7 @@
 //
 
 #import "CYLHomeViewController.h"
+#import "LzyViewController.h"
 
 @implementation CYLHomeViewController
 
@@ -55,6 +56,12 @@
     NSNumber *badgeNumber = @(indexPath.row + 1);
     self.navigationItem.title = [NSString stringWithFormat:@"首页(%@)", badgeNumber]; //sets navigation bar title.
     [self.navigationController.tabBarItem setBadgeValue:[NSString stringWithFormat:@"%@", badgeNumber]];
+    
+    LzyViewController *vc = [[LzyViewController alloc] init];
+    self.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:vc animated:YES];
+    self.hidesBottomBarWhenPushed = NO;
+    
 }
 
 @end

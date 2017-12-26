@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84DF5E421FF24DFE000058C2 /* LzyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF5E411FF24DFE000058C2 /* LzyViewController.m */; };
 		9A1559C51CB6D4C700CAB1AF /* CYLTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1559C41CB6D4C700CAB1AF /* CYLTabBarControllerConfig.m */; };
 		9A1559C81CB6D4D300CAB1AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1559C61CB6D4D300CAB1AF /* AppDelegate.m */; };
 		9A1559DB1CB6D56500CAB1AF /* CYLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1559CC1CB6D56500CAB1AF /* CYLHomeViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84DF5E401FF24DFE000058C2 /* LzyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LzyViewController.h; sourceTree = "<group>"; };
+		84DF5E411FF24DFE000058C2 /* LzyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LzyViewController.m; sourceTree = "<group>"; };
 		9A1559C31CB6D4C700CAB1AF /* CYLTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarControllerConfig.h; sourceTree = "<group>"; };
 		9A1559C41CB6D4C700CAB1AF /* CYLTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarControllerConfig.m; sourceTree = "<group>"; };
 		9A1559C61CB6D4D300CAB1AF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -196,6 +199,8 @@
 			children = (
 				9A1559E11CB6EB1F00CAB1AF /* View */,
 				9A1559C91CB6D56500CAB1AF /* Module */,
+				84DF5E401FF24DFE000058C2 /* LzyViewController.h */,
+				84DF5E411FF24DFE000058C2 /* LzyViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -308,6 +313,7 @@
 				9A1559DD1CB6D56500CAB1AF /* CYLMineViewController.m in Sources */,
 				9AE942FB1BDC937F00354519 /* CYLTabBarController.m in Sources */,
 				9AE942F11BDC933E00354519 /* main.m in Sources */,
+				84DF5E421FF24DFE000058C2 /* LzyViewController.m in Sources */,
 				9AE942FA1BDC937F00354519 /* CYLTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
